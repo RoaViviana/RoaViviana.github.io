@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+        <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+      </div>
+    </div>
+    <div> <h3 class="indication">Change primary colors</h3></div>
+    <div id="toggle-colors" class="colors">
+      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+
+      <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+
+      <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+
+      <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+    </div>
+  </header>
+   <main class="main">
+    <section class="column column--left">
+      <!--PROFILE CARD-->
+      <article class="card card--profile">
+        <div class="card__image--container">
+          <img src="./assets/images/2.png" alt="">
+        </div>
+          <div class="card__header">
+            <h2 class="card__title">Viviana Vazquez</h2>
+            <p class="card__subtitle">Full stack developer</p>
+            <div class="card__body">
+              <div class="card__link">
+                <i class="fas fa-envelope icon"></i>
+                <a href="mailto:vivianaroaprog@gmail.com">
+                  vivianaroaprog@gmail.com
+                </a>
+              </div>
+                <div class="card__link">
+                  <i class="fas fa-phone-alt icon"></i>
+                  <a href="tel:541166820431">
+                    +54 1166820431
+                  </a>
+            </div>
+            <p class="card__text">I am a website design professional with over 5 years of experience working with multiple industries. My goal is to deliver you a professional looking, intuitive, fast and easy to use website that captures the essence of you and your business perfectly with a creative and unique design.</p>
+          </div>
+      </article>
+      <article class="card card--hobbies">
+        <h2 class="card__title">Hobbies</h2>
+        <div class="card__image--container">
+          <img src="assets/images/photos/caminata.jpg" alt="take a walk">
+        </div>
+        <h3 class="hobbie__title">Take a walk</h3>
+        <p class="card__text">I love to go for a walk around the neighborhood. There is always something new to see. It also helps me to clear my mind and relax.</p>
+        <div class="card__image--container">
+          <img src="assets/images/photos/series.jpg" alt="take a walk">
+        </div>
+        <h3 class="hobbie__title">Watch series</h3>
+        <p class="card__text">My favorite series are the situational humor ones.</p>
+      </article>
+      
+    </section>
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Front End</h2>
+        <small>Years of experience</small>
+        <div class="skills__header">
+          <span class="skills__start-level">0</span>
+          <span class="skills__start-level">5</span>
+        </div>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--100"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--100"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Bootstrap</p>
+              <div class="skills__bar skills__bar--80"></div>
+          </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Design</h2>
+        <small>Years of experience</small>
+        <div class="skills__header">
+          <span class="skills__start-level">0</span>
+          <span class="skills__start-level">5</span>
+        </div>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Canva</p>
+              <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Figma</p>
+              <div class="skills__bar skills__bar--90"></div>
+          </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Back End</h2>
+        <small>Years of experience</small>
+        <div class="skills__header">
+          <span class="skills__start-level">0</span>
+          <span class="skills__start-level">5</span>
+        </div>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Java</p>
+              <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Spring Boot</p>
+              <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">MySQL</p>
+              <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Postman</p>
+              <div class="skills__bar skills__bar--90"></div>
+          </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/photos/experience1.png" alt="website banner" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+            <span class="project__tag">#Responsive</span>
+          </div>
+        <h2>Recent work</h2>
+        <p class="card__text">Website for smart phone, tablet, laptop and desktop PC repair business. The banner design and the selection of images for the website are also part of my work.</p>
+        <div class="buttons">
+          <a href="https://servicio-tecnico-willian.web.app/informacion" target="_blank"  class="button button--ghost">Demo</a>
+        </div>
+      </div>
+      </article>
+      <article class="card card--experience">
+        <h2 class="card__title">Experiences</h2>
+        <h2>Intergraphix - Web page design.
+        </h2>
+        <div class="experience">
+          <div class="experience__info">
+            <p class="experience__date">
+              March 2019 - October 2022
+            </p>
+            <h3 class="experiencie__job">Front End Developer</h3>
+            <p class="experiencie__description">
+              Transform designs into responsive, functional, and accessible frontend components • Implement and maintain best practices for accessibility, performance, and coding standards • Collaborate effectively with team leaders, project managers, and technical leads • Stay up-to-date on front-end web development best practices.
+            </p>
+          </div>
+        </div>
+      </article>
+        <article class="card card--experience">
+        <h2>Freelance web developer and designer.
+        </h2>
+        <div class="experience">
+          <div class="experience__info">
+            <p class="experience__date">
+              November 2022 - Current
+            </p>
+            <h3 class="experiencie__job">Front End Developer</h3>
+            <p class="experiencie__description">
+              I have been designing and developing web pages independently for two years with very good results. My main clients are people who want a web presence for their businesses to enhance them. Having an attractive and functional website shows professionalism and generates confidence in potential customers.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+   </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
